@@ -502,6 +502,10 @@ body {
 }
 
 @media (max-width: 768px) {
+  .container,
+  .container-small {
+    padding: 0 40px;
+  }
   .hero {
     padding-top: 140px;
   }
@@ -516,7 +520,7 @@ body {
 
 @media (max-width: 640px)  {
   .section {
-    padding: 50px 20px;
+    padding: 50px 0 20px;
   }
   .page__content {
     padding: 50px 0;
