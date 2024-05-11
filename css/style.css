@@ -502,6 +502,10 @@ body {
 }
 
 @media (max-width: 768px) {
+  .container,
+  .container-small {
+    padding: 0 40px;
+  }
   .hero {
     padding-top: 140px;
   }
