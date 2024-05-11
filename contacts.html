@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>История Воронежа</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <nav class="nav">
+            <a class="nav__logo" href="./index.html">
+              <img class="nav__logo-img" src="./images/logo.png">
+            </a>
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a class="nav__link" href="index.html">Главная</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="antique.html">Древность</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="centuries.html">XVIII-XX век</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="modern.html">Современность</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link nav__link--active" href="contacts.html">Контакты</a>
+              </li>
+            </ul>
+            <button class="hamburger" type="button">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="contacts">
+        <div class="container-small">
+          <h1 class="contacts__title">Связь с нами</h1>
+          <p class="contacts__text">
+            Если вы заметили на данном сайте информацию, кажущейся вам недостоверной, или хотите сообщить информацию иного характера, то вы можете оставить нам сообщение по форме ниже.
+          </p>
+          <form action="" class="contacts__form">
+            <label class="contacts__form-label" for="name">Ваше имя:</label>
+            <input class="contacts__form-input" name="name" id="name" type="text" placeholder="Введите ваше имя" required>
+            <label class="contacts__form-label" for="email">Ваша электронная почта:</label>
+            <input class="contacts__form-input" name="email" id="email" type="email" placeholder="Введите вашу электронную почту" required>
+            <label class="contacts__form-label" for="message" >Ваша сообщение:</label>
+            <textarea class="contacts__form-textarea" name="message" id="message" placeholder="Введите ваше сообщение" required></textarea>
+            <button class="contacts__form-btn">Отправить</button>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__column">
+            <a class="footer__logo" href="./index.html">
+              <img class="footer__logo-img" src="./images/logo.svg">
+            </a>
+          </div>
+          <div class="footer__column">
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a class="footer__link" href="index.html">Главная</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="antique.html">Древность</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="centuries.html">XVIII-XX век</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="modern.html">Современность</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="contacts.html">Контакты</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <div class="footer__bottom-item">
+            Сделано студентом группы У-214 Сушковым Андреем
+          </div>
+          <div class="footer__bottom-item">
+            ВГУИТ
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="./js/main.js"></script>
+</body>
+</html>
