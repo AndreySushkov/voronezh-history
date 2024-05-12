@@ -4,6 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>История Воронежа</title>
+  <link rel="icon" href="images/favicon/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="images/favicon/favicon-16x16.png" sizes="16x16" type="image/png">
+  <link rel="icon" href="images/favicon/favicon-32x32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="images/favicon/apple-touch-icon.png" sizes="180x180">
+  <link rel="manifest" href="manifest.webmanifest">
   <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -56,6 +61,10 @@
             <input class="contacts__form-input" name="email" id="email" type="email" placeholder="Введите вашу электронную почту" required>
             <label class="contacts__form-label" for="message" >Ваша сообщение:</label>
             <textarea class="contacts__form-textarea" name="message" id="message" placeholder="Введите ваше сообщение" required></textarea>
+            <div class="contacts__form-checkbox-wrapper">
+              <input class="contacts__form-checkbox" type="checkbox" name="personal" id="personal">
+              <label class="contacts__form-label" for="personal" >Я согласен на обработку персональных данных</label>
+            </div>
             <button class="contacts__form-btn">Отправить</button>
           </form>
         </div>
@@ -66,7 +75,7 @@
         <div class="footer__inner">
           <div class="footer__column">
             <a class="footer__logo" href="./index.html">
-              <img class="footer__logo-img" src="./images/logo.svg">
+              <img class="footer__logo-img" src="./images/logo.png">
             </a>
           </div>
           <div class="footer__column">
